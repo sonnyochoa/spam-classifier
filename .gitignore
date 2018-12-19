@@ -1,0 +1,11 @@
+# This line is not needed for .gitignore files.
+syntax:glob
+# Will match .pyc, .pyo and .pyd files.
+*.py[cod]
+# Exclude the whole folder
+__pycache__/
+
+# IPython notebook
+.ipynb_checkpoints
+
+boston_housing/
